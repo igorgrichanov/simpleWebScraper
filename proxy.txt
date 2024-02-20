@@ -1,0 +1,9 @@
+headers = {
+        'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0',
+    }
+ip = '31.44.188.89:9356'
+ip_login = 'M8FJxh'
+ip_password = '6B74yK'
+ip_with_auth = f'{ip_login}:{ip_password}@{ip}'
+query_proxy = {'http': f'http://{ip_with_auth}',
+                'https': f'http://{ip_with_auth}'}
